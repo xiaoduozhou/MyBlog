@@ -1,0 +1,3 @@
+hexo clean && hexo g && hexo d
+
+hexo s #展示在网页中
