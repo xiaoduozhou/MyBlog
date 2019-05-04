@@ -1,0 +1,7 @@
+/xiaoduozhou.github.io/.deploy_git
+/xiaoduozhou.github.io/.git
+/xiaoduozhou.github.io/node_modules
+/xiaoduozhou.github.io/public
+/xiaoduozhou.github.io/db.json
+/xiaoduozhou.github.io/package-lock.json
+/xiaoduozhou.github.io/.gitignore

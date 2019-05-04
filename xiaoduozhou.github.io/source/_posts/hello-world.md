@@ -2,7 +2,7 @@
 title: Test
 tags: 
 categories:
-
+mathjax: true
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -44,3 +44,6 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 
 数学
 $$f(x) = a_1x^n + a_2x^{n-1} + a_3x^{n-2}$$
+
+公式显示错误
+https://www.jianshu.com/p/49538f7d9512
