@@ -115,3 +115,26 @@ print(value)
 print(index)
 ```
 {% asset_img 25.jpg %}
+
++ 扩大张量 expand
+返回张量的一个新视图，可以将张量的 **单个维度** 扩大为更大的尺寸。
+张量也可以扩大为更高维，新增加的维度将附在前面。 扩大张量不需要分配新内存，仅仅是新建一个张量的视图。任意一个一维张量在不分配新内存情况下都可以扩展为任意的维度。
+传入-1则意味着维度扩大不涉及这个维度。
+```
+a = torch.rand((2,3,1))
+b = a.expand(2,3,4)
+c = a.expand(-1,-1,4)
+print("a",a)
+print("b",b)
+print("c",c)
+```
+{% asset_img 26.PNG %}
+
++ 沿着某个维度重复 repeat 
+几个数字分别表示原来维度上重复的数字，如果多了就相当于多加一个维度
+```
+A = torch.randn([2,2,3])
+print(A.shape,A.repeat(3,2,2,3).shape)
+```
+{% asset_img 27.PNG %}
+
