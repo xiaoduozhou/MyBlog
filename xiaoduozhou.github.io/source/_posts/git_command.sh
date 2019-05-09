@@ -1,4 +1,4 @@
-hexo c &hexo g &hexo d
+hexo g &hexo d
 hexo d
 cd ..
 cd ..
